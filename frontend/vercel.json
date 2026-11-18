@@ -1,0 +1,1 @@
+{"routes":[{"src":"/admin(?:/.*)?","headers":{"X-Robots-Tag":"noindex, nofollow"},"continue":true},{"handle":"filesystem"},{"src":"/(?!api(?:/|$)|assets(?:/|$)).*","dest":"/index.html"}]}
